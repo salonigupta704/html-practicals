@@ -1,0 +1,111 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(120deg, #dfe9f3, #ffffff);
+    color: #333;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 25px;
+    background-color: #3c88c6;
+    color: white;
+    border-bottom: 3px solid #2f4f73;
+}
+
+.header h4 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+.header p {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* Content Section */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+/* Login Form Box */
+.loginform {
+    background-color: #c3d1e7;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: 0.3s ease;
+}
+
+.loginform:hover {
+    transform: translateY(-5px);
+}
+
+/* Fieldset */
+#login {
+    border: none;
+}
+
+#login legend {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #4a6fa5;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.2s;
+}
+
+input:focus {
+    border-color: #4a6fa5;
+    box-shadow: 0 0 5px rgba(74, 111, 165, 0.3);
+}
+
+/* Link Styling */
+a {
+    color: #4a6fa5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f1f1f1;
+    font-size: 13px;
+    color: #555;
+    border-top: 1px solid #ddd;
+}
